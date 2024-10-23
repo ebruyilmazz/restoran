@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Restoran</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo"/>
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Ana Sayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="menu.html">Menü</a>
+            <a href="products.html">Ürünlerimiz</a>
+            <a href="review.html">Müşteri Yorumları</a>
+            <a href="contact.html">İletişim</a>
+            <a href="blogs.html">Bloglarımız</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Ara"/>
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                    <img src="images/menu-1.png" alt="menu"/>
+                    <div class="content">
+                        <h3>Cart İtem 01</h3>
+                        <div class="price">$15.99/-</div>
+                    </div>
+                
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                    <img src="images/menu-2.png" alt="menu"/>
+                    <div class="content">
+                        <h3>Cart İtem 02 </h3>
+                        <div class="price">$15.99/-</div>
+                    </div>
+                
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                    <img src="images/menu-3.png" alt="menu"/>
+                    <div class="content">
+                        <h3>Cart İtem 03</h3>
+                        <div class="price">$15.99/-</div>
+                    </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                    <img src="images/menu-4.png" alt="menu"/>
+                    <div class="content">
+                        <h3>Cart İtem 04</h3>
+                        <div class="price">$15.99/-</div>
+                    </div>
+                
+            </div>
+
+            <a href="#" class="btn">Kontrol Et</a>
+        </div>
+    </header>   
+    <!--header section end -->
+
+    <!--home section start -->
+        <section class="home" >
+            <div class="content">
+                <h3>
+                    EVE TESLİMAT
+                </h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente vero praesentium eos veniam voluptas ex possimus est quae tempora dicta.</p>
+                <a href="#" class="btn">Sipariş Ver</a>
+            </div>
+        </section>
+
+    <!--home section end -->
+
+    <!--menu section start -->
+    <section class="menu" id="menu">
+        <h1 class="heading"><span>MENÜLER</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="menu">
+                    <span class="menu-category">
+                        PİZZA
+                    </span>
+                    <h3>6 Mini Pizza</h3>
+                    <div class="price">₺104.99 <span>119.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="menu">
+                    <span class="menu-category">
+                        BURGER
+                    </span>
+                    <h3>5 Mini Burger</h3>
+                    <div class="price">₺99.99 <span>109.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="menu">
+                    <span class="menu-category">
+                        PİZZA
+                    </span>
+                    <h3>2 Karışık Pizza</h3>
+                    <div class="price">₺44.99 <span>59.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-4.png" alt="menu">
+                    <span class="menu-category">
+                        BURGER
+                    </span>
+                    <h3>3 Köfte Burger</h3>
+                    <div class="price">₺79.99 <span>99.99</span></div>
+                </div>
+
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!--menu section end -->
+    
+    <!--products section start -->
+    <section class="products" id="products">
+        <h1 class="heading"><span>ÜRÜNLER</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MİNİ BURGER</span>
+                    <a href="#" class="name">Bacon Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺6.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MİNİ BURGER</span>
+                    <a href="#" class="name">Köfte Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺16.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dark-bg">
+                <div class="box-head">
+                    <span class="title">MİNİ BURGER</span>
+                    <a href="#" class="name">Siyah Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/dark-product.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₺26.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--products section end -->
+
+
+    <!--about us section start -->
+
+    <section class="about" >
+        <h1 class="heading"><span>HAKKIMIZDA</span></h1>
+        <div class="row">
+            <div class="image"> 
+                <img src="images/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>Burgerlerimizin Gizli Tarifi Nedir?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque nostrum iste hic libero tempore placeat nemo omnis ad ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quam vero expedita dignissimos animi aliquid harum atque sequi quasi minus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit sit aliquam consectetur rerum vel voluptates delectus minus ut debitis officia fugit officiis quia ratione, eligendi architecto ipsam? Maiores, ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias ad praesentium perferendis laboriosam aliquid harum, quibusdam tempora voluptas quos illo a eum architecto cumque magnam consequuntur possimus, atque ullam!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus aspernatur dignissimos magni minus, cupiditate rerum similique eos dolorem quia impedit nulla eius porro itaque vitae beatae quidem, fugiat non aut ea? Cum, in quam. Eaque autem maiores nemo temporibus nam sint doloremque repudiandae ipsum ipsa quisquam placeat possimus, nesciunt doloribus maxime, minus tempora velit nostrum voluptatum dolor corporis perspiciatis voluptates voluptate veritatis quas. Id ipsa similique tempore, consequuntur exercitationem delectus!
+                </p>
+                <a href="#" class="btn">Daha Fazlası</a>
+            </div>
+            
+        </div>
+    </section>
+    <!--about us section end -->
+
+    <!--Customer's review section start -->
+    <section class="review" >
+        <h1 class="heading">MÜŞTERİ <span style="color: black;"> YORUMLARI</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta repudiandae fugiat exercitationem soluta, maxime laborum iste atque perferendis repellendus quas sequi inventore voluptas veritatis autem minus. Enim, saepe quam!</p>
+                <img src="images/avatar-1.png" alt="avatar" class="user">
+                <h3>Jennifer Becker</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta repudiandae fugiat exercitationem soluta, maxime laborum iste atque perferendis repellendus quas sequi inventore voluptas veritatis autem minus. Enim, saepe quam!</p>
+                <img src="images/avatar-2.png" alt="avatar" class="user">
+                <h3>Jeohn Doe</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta repudiandae fugiat exercitationem soluta, maxime laborum iste atque perferendis repellendus quas sequi inventore voluptas veritatis autem minus. Enim, saepe quam!</p>
+                <img src="images/avatar-3.png" alt="avatar" class="user">
+                <h3>Lisa Aram</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Customer's review section end -->
+
+
+    <!--Contact Us section start-->
+    <section class="contact" >
+        <h1 class="heading">BİZE <span style="color: black;"> ULAŞIN</span></h1>
+        <div class="row">
+            <iframe 
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24080.052848710602!2d28.958645173398285!3d41.02511141625019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1726325043965!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form>
+                <h3>Görüşlerinizi Bildirin</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="İsim ">
+                </div>
+
+                <div class="inputBox">
+
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="Numara ">
+                </div>
+
+                <input type="submit" class="btn" value="İletişime Geç">
+            </form>
+
+        </div>
+        </section>
+
+    <!--Contact Us section end -->
+
+    <!--Blog section start -->
+        <section class="blogs" >
+            <h1 class="heading">Bloglarımız</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-1.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Burger Nasıl Yapılır?</a>
+                        <span>admin/ Mayıs 10,2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere, ratione alias ad accusantium eos.</p>
+                        <a href="#" class="btn">Daha Fazlası</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-2.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Küçük Bir Burger Nasıl Yapılır?</a>
+                        <span>admin/ Ağustos 10,2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere, ratione alias ad accusantium eos.</p>
+                        <a href="#" class="btn">Daha Fazlası</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-3.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Lezzetli ve Ferahlatıcı Kahve</a>
+                        <span>admin/ Ekim 15,2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere, ratione alias ad accusantium eos.</p>
+                        <a href="#" class="btn">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--Blog section end -->
+
+    <!--Footer section start -->
+
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="ara">
+            <button class="btn btn-primary">Ara</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">Ana Sayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Menü</a>
+            <a href="#">Ürünlerimiz</a>
+            <a href="#">Müşteri Yorumları</a>
+            <a href="#">İletişim</a>
+            <a href="#">Bloglarımız</a>
+        </div>
+
+        <div class="created">
+            <span>Ebru Yılmaz</span> || Tüm hakları saklıdır
+        </div>
+    </section>
+    <!--Footer section end -->
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
